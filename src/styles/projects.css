@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@600&display=swap");
+
+.projects-list,
+.projects-image,
+.projects-text {
+  height: 80vh;
+}
+
+.filter {
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  /* border-bottom: 1px solid white; */
+}
+
+.projects {
+  /* position: relative; */
+  height: 92%;
+  overflow-y: auto;
+}
+
+.stack {
+  font-size: 12px;
+  /* width: 70%; */
+  color: rgba(255, 255, 255, 0.726);
+}
+
+.demo {
+  font-size: 12px;
+  color: white;
+}
+
+.icon-link {
+  color: inherit;
+}
+
+.fa-star {
+  color: rgba(255, 255, 7, 0.493);
+}
+
+.fa-github:hover {
+  color: red;
+}
+
+.demo-text:hover {
+  color: red;
+}
+
+.project-title {
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+}
+
+.project-links {
+  display: inline-block;
+  width: 30%;
+}
+.project-date {
+  font-size: 12px;
+  /* width: 30%; */
+}
+
+.project-box {
+  /* width: 10rem;
+  display: inline-block; */
+  height: 100%;
+  border-bottom: 1px dotted white !important;
+  /* cursor: crosshair; */
+  background-color: #211a23 !important;
+  border-radius: 0% !important;
+  padding: 2px !important;
+}
+
+.project-box:hover {
+  background-color: white !important;
+  color: #211a23;
+
+  /* border-bottom: 1px dotted black; */
+}
+
+.project-box:hover .project-title,
+.project-box:hover .stack,
+.project-box:hover .demo {
+  color: #211a23;
+}
+
+.projects::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #211a23;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.projects::-webkit-scrollbar {
+  width: 2px;
+
+  background-color: transparent;
+}
+
+.projects::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: white;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 0, 0, 0.4) 50%,
+    transparent,
+    transparent
+  );
+}

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@600&display=swap");
+
+.project-detail-container {
+  height: 80vh;
+}
+
+.title-box {
+  /* background-color: black; */
+  height: 8%;
+  font-family: "Karla", sans-serif;
+}
+
+.image-box {
+  /* background-color: red; */
+  height: 52%;
+}
+
+.description-box {
+  /* background-color: green; */
+  height: 40%;
+  font-family: "Karla", sans-serif;
+  font-size: 0.85rem;
+}
+
+/* .p-image {
+  height: 320px;
+  width: 320px;
+} */
