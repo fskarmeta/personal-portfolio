@@ -208,7 +208,7 @@ a {
   .cave {
     height: 5rem;
     left: 80%;
-    top: 50%;
+    top: 42%;
     width: 5rem;
   }
 
@@ -217,11 +217,11 @@ a {
   }
 
   h2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   h3 {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
 
   p {

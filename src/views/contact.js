@@ -27,7 +27,7 @@ const Contact = ({ inside }) => {
               <h2 className="font-italic">Full-Stack Developer</h2>
               <h3 className="font-italic small">
                 JavaScript, React, NodeJS, Bootstrap, HTML5, CSS3, Python,
-                Flask, MySQL
+                Flask, MySQL, Git, Agile
               </h3>
               <p>Santiago, Chile</p>
             </div>
