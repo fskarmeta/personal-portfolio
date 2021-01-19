@@ -8,7 +8,7 @@ const ProjectCard = ({ title, image, description }) => {
         {title}
       </Row>
       <Row className="image-box d-flex justify-content-center align-content-center">
-        <Image className="img-responsive" src={image} fluid />
+        <Image className="card-image" src={image} fluid />
       </Row>
       <Row className="description-box d-flex justify-content-center  text-jusitfy">
         {description}

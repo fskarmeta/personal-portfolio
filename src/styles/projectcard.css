@@ -57,3 +57,7 @@
   height: 320px;
   width: 320px;
 } */
+
+.card-image {
+  object-fit: cover;
+}
