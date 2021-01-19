@@ -47,8 +47,7 @@ const Projects = () => {
     <Container fluid>
       <Row className="project-container">
         <Col xl={8} lg={8} md={12} sm={12} xs={12} className="projects-list">
-          {/* <Row className="d-flex justify-content-center"> */}
-          <div className="filter d-flex w-50 justify-content-between mb-2 mt-2">
+          <div className="filter d-flex w-50 justify-content-between mb-2 mt-3">
             <span
               className="filter-link mr-1 ml-3"
               onMouseOver={() => resetArr("github")}
@@ -76,7 +75,7 @@ const Projects = () => {
           </div>
           {/* </Row> */}
           <Row
-            className="projects mt-2 d-flex justify-content-center"
+            className="projects mt-4 d-flex justify-content-center"
             id="style13"
           >
             {PROJECTS.filter((p) => p[`${filter}`]).map((project, index) =>
