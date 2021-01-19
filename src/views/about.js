@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import { Container, Col, Row, Image } from "react-bootstrap";
 import "../styles/about.css";
 
