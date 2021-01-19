@@ -22,7 +22,7 @@ function App() {
         onMouseLeave={() => setInside(false)}
       >
         <BrowserRouter basename={basename}>
-          <Analytics id="G-GKD9PYE45N">
+          <Analytics id="UA-182868256-1">
             <Navbar />
             <Switch>
               <Container fluid>
