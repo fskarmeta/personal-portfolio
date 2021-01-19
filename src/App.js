@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { createBrowserHistory } from "history";
 import { Container } from "react-bootstrap";
 import Navbar from "./components/navbar";
 import Projects from "./views/projects";
@@ -7,7 +8,6 @@ import Contact from "./views/contact";
 import AboutMe from "./views/about";
 import Certifications from "./views/certifications";
 import ReactGA from "react-ga";
-import { createBrowserHistory } from "history";
 import "./styles/app.css";
 
 function App() {
@@ -16,10 +16,15 @@ function App() {
 
   const history = createBrowserHistory();
 
+  useEffect(() => {
+    ReactGA.initialize("G-GKD9PYE45N");
+    ReactGA.pageview(window.location.pathname);
+  });
+
   history.listen((location) => {
     ReactGA.initialize("G-GKD9PYE45N");
-    ReactGA.set({ page: location.pathname }); // Update the user's current page
-    ReactGA.pageview(location.pathname); // Record a pageview for the given page
+    ReactGA.set({ page: location.pathname });
+    ReactGA.pageview(location.pathname);
   });
 
   return (
