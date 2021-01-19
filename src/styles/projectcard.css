@@ -17,11 +17,48 @@
 
 .description-box {
   /* background-color: green; */
-  height: 40%;
   font-family: "Karla", sans-serif;
-  font-size: 0.85rem;
+  height: 40%;
 }
 
+@media (min-width: 2000px) {
+  .description-box {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .description-box {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .description-box {
+    background-color: green;
+    height: 40%;
+    font-family: "Karla", sans-serif;
+    font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .description-box {
+    background-color: green;
+    height: 40%;
+    font-family: "Karla", sans-serif;
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 990px) {
+  .description-box {
+    background-color: green;
+    height: 40%;
+    font-family: "Karla", sans-serif;
+    font-size: 0.7rem;
+  }
+}
 /* .p-image {
   height: 320px;
   width: 320px;

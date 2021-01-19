@@ -3,7 +3,7 @@
 .projects-list,
 .projects-image,
 .projects-text {
-  height: 80vh;
+  height: 65vh;
 }
 
 .filter {
@@ -26,14 +26,12 @@
 }
 
 .projects {
-  /* position: relative; */
   height: 92%;
   overflow-y: auto;
 }
 
 .stack {
   font-size: 12px;
-  /* width: 70%; */
   color: rgba(255, 255, 255, 0.726);
 }
 
@@ -69,12 +67,9 @@
 }
 .project-date {
   font-size: 12px;
-  /* width: 30%; */
 }
 
 .project-box {
-  /* width: 10rem;
-  display: inline-block; */
   height: 100%;
   border-bottom: 1px dotted white !important;
   /* cursor: crosshair; */
@@ -83,11 +78,7 @@
   padding: 2px !important;
 }
 
-/* .project-header {
-  background-color: #211a23 !important;
-} */
-
-@media (min-width: 760px) {
+@media (min-width: 990px) {
   .project-box:hover {
     background-color: rgba(255, 255, 255, 0.795) !important;
     color: #211a23;

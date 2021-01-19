@@ -17,7 +17,7 @@ const Projects = () => {
   const [filter, setFilter] = useState("github");
   const [colsize, setColsize] = useState(4);
   const [width, setWidth] = useState(window.innerWidth);
-  const breakpoint = 989;
+  const breakpoint = 992;
 
   useEffect(() => {
     const handleWindowResize = () => setWidth(window.innerWidth);
