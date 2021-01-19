@@ -14,7 +14,7 @@ function App() {
   const [inside, setInside] = useState(false);
 
   useEffect(() => {
-    ReactGA.initialize("2252807390");
+    ReactGA.initialize("G-GKD9PYE45N");
     ReactGA.pageview(window.location.pathname);
   });
 
