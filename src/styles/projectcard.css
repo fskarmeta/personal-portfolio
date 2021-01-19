@@ -17,48 +17,42 @@
 
 .description-box {
   /* background-color: green; */
+  margin-top: 0.4rem;
   font-family: "Karla", sans-serif;
   height: 40%;
 }
 
-@media (min-width: 2000px) {
-  .description-box {
-    font-size: 1.1rem;
-  }
-}
-
-@media (min-width: 1500px) {
+@media (max-width: 2000px) {
   .description-box {
     font-size: 0.9rem;
   }
 }
 
-@media (min-width: 1300px) {
+@media (max-width: 1500px) {
   .description-box {
-    background-color: green;
-    height: 40%;
-    font-family: "Karla", sans-serif;
     font-size: 0.85rem;
   }
 }
 
-@media (min-width: 1000px) {
+@media (max-width: 1200px) {
   .description-box {
-    background-color: green;
-    height: 40%;
-    font-family: "Karla", sans-serif;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
 }
 
-@media (min-width: 990px) {
+@media (max-width: 1100px) {
   .description-box {
-    background-color: green;
-    height: 40%;
-    font-family: "Karla", sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.77rem;
   }
 }
+
+@media (max-width: 1000px) {
+  .description-box {
+    margin-top: 3rem;
+    font-size: 1.2rem;
+  }
+}
+
 /* .p-image {
   height: 320px;
   width: 320px;

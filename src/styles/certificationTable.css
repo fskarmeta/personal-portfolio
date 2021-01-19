@@ -6,3 +6,9 @@
 thead {
   font-style: italic;
 }
+
+@media (max-height: 500px) {
+  .table {
+    font-size: 0.7rem;
+  }
+}

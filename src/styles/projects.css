@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@600&display=swap");
 
-.projects-list,
-.projects-image,
-.projects-text {
-  height: 65vh;
+.projects-list {
+  height: 80vh;
+}
+
+@media (max-height: 500px) {
+  .projects-list {
+    height: 60vh;
+  }
 }
 
 .filter {

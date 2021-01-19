@@ -187,6 +187,38 @@ a {
   }
 }
 
+@media (max-height: 500px) {
+  .cave {
+    height: 5rem;
+    left: 80%;
+    top: 60%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-height: 322px) {
+  .cave {
+    height: 5rem;
+    left: 80%;
+    top: 55%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
+
 .cave {
   animation: rotation 120s infinite linear;
 }
