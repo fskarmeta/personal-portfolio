@@ -1,15 +1,19 @@
 import { Container, Col, Row, Image } from "react-bootstrap";
 import pdf from "../assets/Fabian_Skarmeta_resume.pdf";
 import "../styles/contact.css";
-import Cave from "../assets/radial-dots.svg";
+import { ReactComponent as Icon } from "../assets/owl.svg";
 
 const Contact = ({ inside }) => {
   const mouseInside = {
-    animation: "rotation 30s infinite linear",
+    animation: "rotation 160s infinite linear",
+    color: "white",
+    fill: "white",
   };
 
   const mouseOutside = {
-    animation: "rotation 120s infinite linear",
+    // animation: "rotation 120s infinite linear",
+    fill: "white",
+    color: "white",
   };
 
   return (
@@ -77,9 +81,8 @@ const Contact = ({ inside }) => {
                 <i className="far fa-file-pdf social-icon fa-2x"></i>
               </a>
             </div>
-            <Image
-              src={Cave}
-              alt="test"
+            <Icon
+              alt="Decoration"
               className="cave"
               style={inside ? mouseInside : mouseOutside}
             />

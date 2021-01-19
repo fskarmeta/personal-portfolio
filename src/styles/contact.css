@@ -211,7 +211,7 @@ a {
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   h2 {
@@ -219,8 +219,32 @@ a {
   }
 }
 
-.cave {
-  animation: rotation 120s infinite linear;
+@media (max-height: 280px) {
+  .cave {
+    height: 5rem;
+    left: 80%;
+    top: 50%;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.6rem;
+  }
+
+  p {
+    font-size: 0.5rem;
+  }
+
+  .social-icon {
+    font-size: 1.5rem !important;
+  }
 }
 
 @keyframes rotation {
