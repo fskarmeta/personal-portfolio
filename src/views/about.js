@@ -13,7 +13,7 @@ const AboutMe = () => {
   }, []);
 
   return (
-    <Container fluid>
+    <Container fluid className="about-container">
       <Row className="mt-5">
         <Col lg={6}>
           <p className="about-text">
@@ -46,8 +46,8 @@ const AboutMe = () => {
           <Image
             src="https://res.cloudinary.com/bafian/image/upload/c_scale,h_500/Portafolio%20Gifs/otras/me_bxwnst.jpg"
             alt="A picture of Fabian Skarmeta"
-            // fluid
-            className={width > breakpoint ? "image" : "d-none"}
+            fluid
+            className="image"
           />
         </Col>
       </Row>

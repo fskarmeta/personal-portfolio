@@ -17,7 +17,7 @@ const Projects = () => {
   const [filter, setFilter] = useState("github");
   const [colsize, setColsize] = useState(4);
   const [width, setWidth] = useState(window.innerWidth);
-  const breakpoint = 768;
+  const breakpoint = 989;
 
   useEffect(() => {
     const handleWindowResize = () => setWidth(window.innerWidth);
@@ -46,7 +46,7 @@ const Projects = () => {
   return (
     <Container fluid>
       <Row className="project-container">
-        <Col xl={8} md={6} sm={12} xs={12} className="projects-list">
+        <Col xl={8} lg={8} md={12} sm={12} xs={12} className="projects-list">
           {/* <Row className="d-flex justify-content-center"> */}
           <div className="filter d-flex w-50 justify-content-between mb-2 mt-2">
             <span

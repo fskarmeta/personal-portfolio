@@ -6,8 +6,6 @@ const CertificationTable = ({ certs }) => {
     <Table
       hover
       borderless
-      // striped
-      //   size="sm"
       className="bg-transparent text-light table"
       variant="dark"
     >
