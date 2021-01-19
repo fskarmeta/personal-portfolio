@@ -7,15 +7,19 @@ import Contact from "./views/contact";
 import AboutMe from "./views/about";
 import Certifications from "./views/certifications";
 import ReactGA from "react-ga";
+import { createBrowserHistory } from "history";
 import "./styles/app.css";
 
 function App() {
   const basename = process.env.BASENAME || "";
   const [inside, setInside] = useState(false);
 
-  useEffect(() => {
+  const history = createBrowserHistory();
+
+  history.listen((location) => {
     ReactGA.initialize("G-GKD9PYE45N");
-    ReactGA.pageview(window.location.pathname);
+    ReactGA.set({ page: location.pathname }); // Update the user's current page
+    ReactGA.pageview(location.pathname); // Record a pageview for the given page
   });
 
   return (
@@ -25,7 +29,7 @@ function App() {
         onMouseEnter={() => setInside(true)}
         onMouseLeave={() => setInside(false)}
       >
-        <BrowserRouter basename={basename}>
+        <BrowserRouter basename={basename} history={history}>
           <Navbar />
           <Switch>
             <Container fluid>
