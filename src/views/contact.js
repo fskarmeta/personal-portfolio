@@ -1,4 +1,4 @@
-import { Container, Col, Row, Image } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import pdf from "../assets/Fabian_Skarmeta_resume.pdf";
 import "../styles/contact.css";
 import { ReactComponent as Icon } from "../assets/owl.svg";
