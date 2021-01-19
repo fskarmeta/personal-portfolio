@@ -74,7 +74,7 @@ const Contact = ({ inside }) => {
                 className="social-link m-1"
                 rel="noreferrer"
               >
-                <i class="far fa-file-pdf social-icon fa-2x"></i>
+                <i className="far fa-file-pdf social-icon fa-2x"></i>
               </a>
             </div>
             <Image

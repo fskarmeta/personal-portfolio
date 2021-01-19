@@ -23,7 +23,7 @@ const Projects = () => {
     const handleWindowResize = () => setWidth(window.innerWidth);
     window.addEventListener("resize", handleWindowResize);
     return () => window.removeEventListener("resize", handleWindowResize);
-  }, []);
+  }, [width]);
 
   function displayProject(project) {
     setProject({
@@ -45,7 +45,7 @@ const Projects = () => {
 
   return (
     <Container fluid>
-      <Row clasName="project-container">
+      <Row className="project-container">
         <Col xl={8} md={6} sm={12} xs={12} className="projects-list">
           {/* <Row className="d-flex justify-content-center"> */}
           <div className="filter d-flex w-50 justify-content-between mb-2 mt-2">
@@ -86,6 +86,7 @@ const Projects = () => {
                   project={project}
                   index={index}
                   className="accordion-card"
+                  key={index}
                 />
               ) : (
                 <CardItem
@@ -93,6 +94,7 @@ const Projects = () => {
                   project={project}
                   displayProject={displayProject}
                   index={index}
+                  key={index}
                 />
               )
             )}
