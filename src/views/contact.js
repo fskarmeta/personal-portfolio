@@ -23,7 +23,7 @@ const Contact = ({ inside }) => {
           <Col md={12} xs={12} className="mt-4" style={{ height: "80vh" }}>
             <div>
               <h1>Fabián Skármeta</h1>
-              <h2 className="font-italic">Junior Full-Stack Developer</h2>
+              <h2 className="font-italic">Full-Stack Developer</h2>
               <h3 className="font-italic small">
                 JavaScript, React, NodeJS, Bootstrap, HTML5, CSS3, Python,
                 Flask, MySQL
