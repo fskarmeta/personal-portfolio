@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Fabian Skarmeta Portfolio",
+  "name": "Fabian Skarmeta Full-Stack Portfolio",
+  "description": "Fabian Skarmeta's Projects, About and Contact",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,7 +19,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://www.bafian.com/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

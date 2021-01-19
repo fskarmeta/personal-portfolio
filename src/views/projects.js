@@ -1,29 +1,29 @@
-import React, { useState } from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Card,
-  Button,
-  Accordion,
-  AccordionToggle,
-} from "react-bootstrap";
+import React, { useState, useEffect } from "react";
+import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/projectCard";
-import { useAccordionToggle } from "react-bootstrap/AccordionToggle";
-import PROJECTS from "../items";
+import CardItem from "../components/itemCard";
+import CardItemAccordion from "../components/itemCardAccordion";
+import PROJECTS from "../assets/projects";
 import "../styles/projects.css";
 
 const Projects = () => {
   const [project, setProject] = useState({
-    title: PROJECTS[0].title,
-    image: PROJECTS[0].image,
-    description: PROJECTS[0].description,
+    title: "A note about this section",
+    image:
+      "https://res.cloudinary.com/bafian/image/upload/c_scale,h_250/hello_world_mhiqdg.png",
+    description: `Although I'm in the opinion that tutorials are a great way to learn, I think that they don't deserve to be showcased in this section. All projects showcased here have been done applying my own style of coding and always trying to minimize as much as possible any outside help. If I would add a project done after following a tutorial I would add the corresponding credits.`,
   });
 
   const [filter, setFilter] = useState("github");
   const [colsize, setColsize] = useState(4);
+  const [width, setWidth] = useState(window.innerWidth);
+  const breakpoint = 768;
 
-  //   const decoratedOnClick = useAccordionToggle(eventKey, onClick);
+  useEffect(() => {
+    const handleWindowResize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleWindowResize);
+    return () => window.removeEventListener("resize", handleWindowResize);
+  }, []);
 
   function displayProject(project) {
     setProject({
@@ -47,109 +47,58 @@ const Projects = () => {
     <Container fluid>
       <Row clasName="project-container">
         <Col xl={8} md={6} sm={12} xs={12} className="projects-list">
-          <Row className="d-flex justify-content-center">
-            <div className="filter d-flex w-75 justify-content-between mb-2">
-              <span
-                className="filter-link"
-                onMouseOver={() => resetArr("github")}
-              >
-                All
-              </span>
-              <span
-                className="filter-link"
-                onMouseOver={() => filterArr("favorite")}
-              >
-                Favorites
-              </span>
-              <span
-                className="filter-link"
-                onMouseOver={() => filterArr("backend")}
-              >
-                Backend
-              </span>
-              <span
-                className="filter-link"
-                onMouseOver={() => filterArr("snipet")}
-              >
-                Excercises
-              </span>
-            </div>
-          </Row>
+          {/* <Row className="d-flex justify-content-center"> */}
+          <div className="filter d-flex w-50 justify-content-between mb-2 mt-2">
+            <span
+              className="filter-link mr-1 ml-3"
+              onMouseOver={() => resetArr("github")}
+            >
+              All
+            </span>
+            <span
+              className="filter-link mr-1"
+              onMouseOver={() => filterArr("favorite")}
+            >
+              Favorites
+            </span>
+            <span
+              className="filter-link mr-1"
+              onMouseOver={() => filterArr("backend")}
+            >
+              Backend
+            </span>
+            <span
+              className="filter-link mr-2"
+              onMouseOver={() => filterArr("snipet")}
+            >
+              Smaller
+            </span>
+          </div>
+          {/* </Row> */}
           <Row
             className="projects mt-2 d-flex justify-content-center"
             id="style13"
           >
-            {PROJECTS.filter((p) => p[`${filter}`]).map((project, index) => (
-              <Col xl={colsize} lg={12} md={12} sm={12} xs={12}>
-                <Accordion className="border-0 bg-transparent">
-                  <Card
-                    key={index}
-                    className="m-0 project-box bg-transparent p-0 border-0"
-                    onMouseEnter={() => displayProject(project)}
-                  >
-                    <Card.Header className="m-0 p-0 border-0">
-                      <Accordion.Toggle
-                        as={Card}
-                        variant="link"
-                        eventKey={index}
-                        className="m-0 p-0 border-0 bg-transparent"
-                      >
-                        <div className="d-flex justify-content-between">
-                          <span className="project-title">
-                            {project.title}
-                            {project.favorite ? (
-                              <i className="fas fa-star pl-1"></i>
-                            ) : null}
-                          </span>
-                          <span className="project-links text-right">
-                            {project.demo ? (
-                              <Card.Link
-                                className="demo"
-                                target="_blank"
-                                href={project.demo}
-                              >
-                                <span className="demo-text">Demo</span>
-                              </Card.Link>
-                            ) : null}
-
-                            <Card.Link
-                              className="icon-link"
-                              target="_blank"
-                              href={project.github}
-                            >
-                              <i className="fab fa-github"></i>
-                            </Card.Link>
-                          </span>
-                        </div>
-                        <div className="d-flex justify-content-between">
-                          <span className="stack font-italic align-self-center">
-                            {project.stack}
-                          </span>
-                          <span className="project-links text-right align-self-center">
-                            <span className="project-date">{project.date}</span>
-                          </span>
-                        </div>
-                      </Accordion.Toggle>
-                    </Card.Header>
-                    <Accordion.Collapse eventKey={index}>
-                      <Card.Body className="text-danger">
-                        Hello! I'm the body
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </Col>
-            ))}
+            {PROJECTS.filter((p) => p[`${filter}`]).map((project, index) =>
+              width < breakpoint ? (
+                <CardItemAccordion
+                  colsize={colsize}
+                  project={project}
+                  index={index}
+                  className="accordion-card"
+                />
+              ) : (
+                <CardItem
+                  colsize={colsize}
+                  project={project}
+                  displayProject={displayProject}
+                  index={index}
+                />
+              )
+            )}
           </Row>
         </Col>
-        <Col
-          //   xl={4}
-          //   lg={2}
-          //   mg={2}
-          //   sm={12}
-          //   xs={12}
-          className="project-detail"
-        >
+        <Col className={width < breakpoint ? "d-none" : "project-detail"}>
           <ProjectCard
             title={project.title}
             image={project.image}

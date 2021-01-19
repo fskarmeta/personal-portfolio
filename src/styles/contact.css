@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@600&display=swap");
+
+h1 {
+  font-size: 3rem;
+}
+h1,
+h2,
+h3,
+p {
+  font-family: "Karla", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+.social-icon:hover {
+  color: rgba(245, 245, 245, 0.678);
+}
+@keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* test */
+
+.fade-in {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.cave {
+  position: absolute;
+  height: 18rem;
+  left: 75%;
+  top: 50%;
+}
+
+@media (max-width: 1205px) {
+  .cave {
+    height: 18rem;
+    left: 70%;
+    top: 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cave {
+    height: 18rem;
+    left: 65%;
+    top: 50%;
+  }
+}
+
+@media (max-width: 890px) {
+  .cave {
+    height: 15rem;
+    left: 60%;
+    top: 60%;
+  }
+}
+
+@media (max-width: 800px) {
+  .cave {
+    height: 13rem;
+    left: 55%;
+    top: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .cave {
+    height: 13rem;
+    left: 60%;
+    top: 65%;
+  }
+}
+
+@media (max-width: 600px) {
+  .cave {
+    height: 10rem;
+    left: 65%;
+    top: 75%;
+  }
+  .social-icon {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .cave {
+    height: 8rem;
+    left: 65%;
+    top: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .cave {
+    height: 8rem;
+    left: 45%;
+    top: 75%;
+  }
+}
+
+@media (max-width: 400px) {
+  .cave {
+    height: 3rem;
+    left: 80%;
+    top: 88%;
+  }
+}
+
+@media (max-width: 360px) {
+  .cave {
+    height: 3rem;
+    left: 80%;
+    top: 88%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.cave {
+  animation: rotation 120s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.cave:hover {
+  animation: rotation 2s infinite linear !important;
+}

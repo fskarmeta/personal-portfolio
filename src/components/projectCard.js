@@ -1,4 +1,4 @@
-import { Container, Row, Col, Card, Image } from "react-bootstrap";
+import { Container, Row, Image } from "react-bootstrap";
 import "../styles/projectcard.css";
 
 const ProjectCard = ({ title, image, description }) => {
@@ -10,7 +10,7 @@ const ProjectCard = ({ title, image, description }) => {
       <Row className="image-box d-flex justify-content-center align-content-center">
         <Image className="img-responsive" src={image} fluid />
       </Row>
-      <Row className="description-box d-flex justify-content-center align-content-center text-jusitfy">
+      <Row className="description-box d-flex justify-content-center  text-jusitfy">
         {description}
       </Row>
     </Container>

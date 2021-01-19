@@ -9,7 +9,20 @@
 .filter {
   font-family: "Karla", sans-serif;
   font-size: 1rem;
-  /* border-bottom: 1px solid white; */
+}
+
+/* .filter-link {
+  font-size: 0.9rem;
+} */
+
+@media (max-width: 1300px) {
+  .filter-link {
+    font-size: 0.7rem;
+  }
+}
+
+.filter-link:hover {
+  color: red;
 }
 
 .projects {
@@ -70,17 +83,21 @@
   padding: 2px !important;
 }
 
-.project-box:hover {
-  background-color: white !important;
-  color: #211a23;
+/* .project-header {
+  background-color: #211a23 !important;
+} */
 
-  /* border-bottom: 1px dotted black; */
-}
+@media (min-width: 760px) {
+  .project-box:hover {
+    background-color: rgba(255, 255, 255, 0.795) !important;
+    color: #211a23;
+  }
 
-.project-box:hover .project-title,
-.project-box:hover .stack,
-.project-box:hover .demo {
-  color: #211a23;
+  .project-box:hover .project-title,
+  .project-box:hover .stack,
+  .project-box:hover .demo {
+    color: #211a23;
+  }
 }
 
 .projects::-webkit-scrollbar-track {
@@ -105,4 +122,8 @@
     transparent,
     transparent
   );
+}
+
+.accordion-card:hover {
+  cursor: s-resize;
 }
