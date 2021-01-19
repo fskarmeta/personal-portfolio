@@ -3,15 +3,6 @@ import { Container, Col, Row, Image } from "react-bootstrap";
 import "../styles/about.css";
 
 const AboutMe = () => {
-  const [width, setWidth] = useState(window.innerWidth);
-  const breakpoint = 1074;
-
-  useEffect(() => {
-    const handleWindowResize = () => setWidth(window.innerWidth);
-    window.addEventListener("resize", handleWindowResize);
-    return () => window.removeEventListener("resize", handleWindowResize);
-  }, []);
-
   return (
     <Container fluid className="about-container">
       <Row className="mt-5">
