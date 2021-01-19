@@ -94,6 +94,23 @@ a {
   height: 18rem;
   left: 75%;
   top: 50%;
+  width: 18rem;
+}
+
+.cave {
+  animation: rotation 2s linear infinite;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+}
+
+.cave:hover {
+  animation-play-state: running;
+}
+
+.cave > * {
+  animation: rotation 160s linear infinite;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
 }
 
 @media (max-width: 1205px) {
@@ -101,6 +118,7 @@ a {
     height: 18rem;
     left: 70%;
     top: 50%;
+    width: 18rem;
   }
 }
 
@@ -109,6 +127,7 @@ a {
     height: 18rem;
     left: 65%;
     top: 50%;
+    width: 18rem;
   }
 }
 
@@ -117,6 +136,7 @@ a {
     height: 15rem;
     left: 60%;
     top: 60%;
+    width: 15rem;
   }
 }
 
@@ -125,6 +145,7 @@ a {
     height: 13rem;
     left: 55%;
     top: 50%;
+    width: 13rem;
   }
 }
 
@@ -133,6 +154,7 @@ a {
     height: 13rem;
     left: 60%;
     top: 65%;
+    width: 13rem;
   }
 }
 
@@ -141,6 +163,7 @@ a {
     height: 10rem;
     left: 65%;
     top: 75%;
+    width: 10rem;
   }
   .social-icon {
     font-size: 2rem;
@@ -152,6 +175,7 @@ a {
     height: 8rem;
     left: 65%;
     top: 80%;
+    width: 8rem;
   }
 }
 
@@ -168,6 +192,7 @@ a {
     height: 3rem;
     left: 80%;
     top: 88%;
+    width: 3rem;
   }
 }
 
@@ -176,6 +201,7 @@ a {
     height: 3rem;
     left: 80%;
     top: 88%;
+    width: 3rem;
   }
 
   h1 {
@@ -192,6 +218,7 @@ a {
     height: 5rem;
     left: 80%;
     top: 60%;
+    width: 5rem;
   }
 
   h1 {
@@ -208,6 +235,7 @@ a {
     height: 5rem;
     left: 80%;
     top: 55%;
+    width: 5rem;
   }
 
   h1 {
@@ -224,6 +252,7 @@ a {
     height: 5rem;
     left: 80%;
     top: 50%;
+    width: 5rem;
   }
 
   h1 {

@@ -7,78 +7,6 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
-/* @media (max-width: 2500px) {
-  .about-text {
-    font-size: 1em;
-    text-align: justify;
-    text-align: start;
-    font-family: "Karla", sans-serif;
-  }
-}
-
-@media (max-width: 1800px) {
-  .about-text {
-    font-size: 0.9em;
-    text-align: justify;
-    text-align: start;
-    font-family: "Karla", sans-serif;
-  }
-}
-
-@media (max-width: 1500px) {
-  .about-text {
-    font-size: 0.8em;
-    text-align: justify;
-    text-align: start;
-    font-family: "Karla", sans-serif;
-  }
-}
-
-@media (max-width: 1200px) {
-  .about-text {
-    font-size: 0.75em;
-    text-align: justify;
-    text-align: start;
-    font-family: "Karla", sans-serif;
-  }
-}
-
-@media (max-width: 1050px) {
-  .about-text {
-    font-size: 0.7em;
-    text-align: justify;
-    text-align: start;
-    font-family: "Karla", sans-serif;
-  }
-}
-
-@media (max-width: 890px) {
-  .about-text {
-    font-size: 0.7em;
-    text-align: justify;
-    text-align: start;
-    font-family: "Karla", sans-serif;
-  }
-}
-
-@media (max-width: 500px) {
-  .about-text {
-    font-size: 0.5em;
-    text-align: justify;
-    text-align: start;
-    font-family: "Karla", sans-serif;
-  }
-}
-
-@media (max-width: 400px) {
-  .about-text {
-    font-size: 0.4em;
-    text-align: justify;
-    text-align: start;
-    font-family: "Karla", sans-serif;
-  }
-} */
-
 .image {
   border-radius: 1rem;
   border: 1px solid black;
@@ -86,6 +14,7 @@
   filter: grayscale(100%);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  object-fit: cover;
 }
 
 .image:hover {

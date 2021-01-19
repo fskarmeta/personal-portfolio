@@ -6,6 +6,7 @@ import { ReactComponent as Icon } from "../assets/owl.svg";
 const Contact = ({ inside }) => {
   const mouseInside = {
     animation: "rotation 160s infinite linear",
+    "animation-play-state": "running",
     color: "white",
     fill: "white",
   };
@@ -81,11 +82,12 @@ const Contact = ({ inside }) => {
                 <i className="far fa-file-pdf social-icon fa-2x"></i>
               </a>
             </div>
-            <Icon
-              alt="Decoration"
-              className="cave"
-              style={inside ? mouseInside : mouseOutside}
-            />
+            <span className="cave">
+              <Icon
+                alt="Decoration"
+                style={inside ? mouseInside : mouseOutside}
+              />
+            </span>
           </Col>
         </Row>
       </Container>

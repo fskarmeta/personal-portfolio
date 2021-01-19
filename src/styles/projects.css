@@ -86,6 +86,7 @@
   .project-box:hover {
     background-color: rgba(255, 255, 255, 0.795) !important;
     color: #211a23;
+    cursor: pointer;
   }
 
   .project-box:hover .project-title,
