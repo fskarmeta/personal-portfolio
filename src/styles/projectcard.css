@@ -15,29 +15,36 @@
   height: 52%;
 }
 
-.description-box-long,
-.description-box {
-  /* background-color: green; */
-  overflow: auto;
+.description-box-long {
   font-family: "Karla", sans-serif;
   height: 40%;
   text-align: justify;
+  font-size: 1rem;
+}
+
+.description-box {
+  /* background-color: green; */
+
+  font-family: "Karla", sans-serif;
+  height: 40%;
+  text-align: justify;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 2000px) {
-  .description-box {
+  .description-box-long {
     font-size: 0.9rem;
   }
 }
 
 @media (max-width: 1500px) {
-  .description-box {
+  .description-box-long {
     font-size: 0.85rem;
   }
 }
 
 @media (max-width: 1200px) {
-  .description-box {
+  .description-box-long {
     font-size: 0.8rem;
   }
 }
@@ -49,12 +56,26 @@
 }
 
 @media (max-width: 1000px) {
+  .description-box-long {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
   .description-box {
-    margin-top: 3rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .description-box-long {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .description-box-long {
+    font-size: 0.62rem;
+    margin-top: 0.1rem;
   }
 }
 
