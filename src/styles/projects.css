@@ -38,6 +38,7 @@
 .filter {
   font-family: "Karla", sans-serif;
   font-size: 1rem;
+  color: rgb(201, 201, 201);
 }
 
 /* .filter-link {

@@ -15,7 +15,7 @@ const Navbar = () => {
           <li className="nav-item">ABOUT ME</li>
         </Link>
         <Link to="/certificates" style={{ color: "inherit" }}>
-          <li className="nav-item">CERTIFICATIONS</li>
+          <li className="nav-item">CERTIFICATES</li>
         </Link>
       </ul>
     </nav>
