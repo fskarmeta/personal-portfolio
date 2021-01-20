@@ -96,7 +96,7 @@ a {
     width: 15rem;
   }
 }
-
+/* 
 @media (max-width: 800px) {
   .cave {
     height: 13rem;
@@ -104,43 +104,25 @@ a {
     top: 50%;
     width: 13rem;
   }
-}
+} */
 
 @media (max-width: 800px) {
   .cave {
-    height: 13rem;
+    height: 12rem;
     left: 60%;
     top: 65%;
-    width: 13rem;
+    width: 12rem;
   }
 }
 
 @media (max-width: 600px) {
   .cave {
-    height: 10rem;
+    height: 8rem;
     left: 65%;
-    top: 75%;
-    width: 10rem;
+    top: 70%;
   }
   .social-icon {
     font-size: 2rem;
-  }
-}
-
-@media (max-width: 600px) {
-  .cave {
-    height: 8rem;
-    left: 65%;
-    top: 80%;
-    width: 8rem;
-  }
-}
-
-@media (max-width: 600px) {
-  .cave {
-    height: 8rem;
-    left: 45%;
-    top: 75%;
   }
 }
 
