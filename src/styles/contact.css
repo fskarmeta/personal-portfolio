@@ -40,7 +40,7 @@ a {
 .cave {
   position: absolute;
   height: 18rem;
-  left: 75%;
+  left: 73%;
   top: 50%;
   width: 18rem;
 }
@@ -64,7 +64,7 @@ a {
 @media (max-width: 1800px) {
   .cave {
     height: 15rem;
-    left: 72%;
+    left: 71%;
     top: 50%;
     width: 15rem;
   }
@@ -73,7 +73,7 @@ a {
 @media (max-width: 1205px) {
   .cave {
     height: 15rem;
-    left: 70%;
+    left: 69%;
     top: 50%;
     width: 15rem;
   }
@@ -82,7 +82,7 @@ a {
 @media (max-width: 1024px) {
   .cave {
     height: 15rem;
-    left: 65%;
+    left: 64%;
     top: 50%;
     width: 15rem;
   }

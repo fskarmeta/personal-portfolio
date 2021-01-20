@@ -1,4 +1,5 @@
 import { Col, Card } from "react-bootstrap";
+import "../styles/itemCard.css";
 
 const CardItem = ({ colsize, project, displayProject, index }) => {
   return (

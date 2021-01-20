@@ -1,5 +1,6 @@
 import { Col, Card, Accordion } from "react-bootstrap";
 import ProjectCard from "./projectCard";
+import "../styles/itemCard.css";
 
 const CardItemAccordion = ({ colsize, project, index }) => {
   return (
