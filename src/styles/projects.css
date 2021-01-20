@@ -21,8 +21,7 @@
 
 @media (max-width: 1300px) {
   .filter-link {
-    font-size: 110%;
-    margin-top: 1rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -123,4 +122,60 @@
 
 .accordion-card:hover {
   cursor: s-resize;
+}
+
+@media (max-width: 800px) {
+  .project-title {
+    font-family: "Karla", sans-serif;
+    font-size: 25px;
+  }
+
+  .demo-text {
+    font-size: 20px;
+  }
+
+  .project-date {
+    font-size: 22px;
+  }
+
+  .filter-link {
+    /* margin-top: 1rem; */
+    font-size: 1.2rem;
+  }
+
+  .projects-list {
+    height: 75vh;
+  }
+
+  .stack {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .project-title {
+    font-family: "Karla", sans-serif;
+    font-size: 20px;
+  }
+
+  .demo-text {
+    font-size: 15px;
+  }
+
+  .project-date {
+    font-size: 10px;
+  }
+
+  .filter-link {
+    /* margin-top: 1rem; */
+    font-size: 1rem;
+  }
+
+  .projects-list {
+    height: 75vh;
+  }
+
+  .stack {
+    font-size: 12px;
+  }
 }

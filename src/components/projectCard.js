@@ -10,7 +10,13 @@ const ProjectCard = ({ title, image, description }) => {
       <Row className="image-box d-flex justify-content-center align-content-center">
         <Image className="card-image" src={image} fluid />
       </Row>
-      <Row className="description-box d-flex justify-content-center  text-jusitfy">
+      <Row
+        className={
+          description.length > 130
+            ? "description-box-long d-flex justify-content-center"
+            : "description-box d-flex justify-content-center"
+        }
+      >
         {description}
       </Row>
     </Container>
