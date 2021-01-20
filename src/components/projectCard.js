@@ -8,7 +8,12 @@ const ProjectCard = ({ title, image, description }) => {
         {title}
       </Row>
       <Row className="image-box d-flex justify-content-center align-content-center">
-        <Image className="card-image" src={image} fluid />
+        <Image
+          className="card-image"
+          src={image}
+          alt={`${title} image`}
+          fluid
+        />
       </Row>
       <Row
         className={

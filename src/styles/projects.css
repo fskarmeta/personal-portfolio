@@ -8,6 +8,31 @@
   .projects-list {
     height: 60vh;
   }
+  .project-title {
+    font-family: "Karla", sans-serif;
+    font-size: 20px;
+  }
+
+  .demo-text {
+    font-size: 15px;
+  }
+
+  .project-date {
+    font-size: 10px;
+  }
+
+  .filter-link {
+    /* margin-top: 1rem; */
+    font-size: 1rem;
+  }
+
+  .projects-list {
+    height: 75vh;
+  }
+
+  .stack {
+    font-size: 12px;
+  }
 }
 
 .filter {
