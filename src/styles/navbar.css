@@ -64,3 +64,10 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 320px) {
+  .navbar {
+    font-size: 0.7rem;
+    justify-content: center;
+  }
+}

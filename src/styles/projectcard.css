@@ -27,7 +27,7 @@
 
   font-family: "Karla", sans-serif;
   height: 40%;
-  text-align: justify;
+  text-align: start;
   font-size: 1.5rem;
 }
 
@@ -60,6 +60,24 @@
     font-size: 1rem;
     margin-top: 1rem;
   }
+
+  .title-box {
+    height: auto;
+    font-size: 1.8rem;
+  }
+
+  .image-box {
+    /* background-color: red; */
+    height: auto;
+  }
+
+  .description-box {
+    font-size: 1.5rem;
+  }
+  .project-detail-container {
+    height: auto;
+    object-fit: contain;
+  }
 }
 
 @media (max-width: 600px) {
@@ -74,8 +92,25 @@
 
 @media (max-width: 480px) {
   .description-box-long {
-    font-size: 0.62rem;
+    font-size: 1rem;
     margin-top: 0.1rem;
+  }
+  .title-box {
+    height: auto;
+    font-size: 1rem;
+  }
+
+  .image-box {
+    /* background-color: red; */
+    height: auto;
+  }
+
+  .description-box {
+    font-size: 1.5rem;
+  }
+  .project-detail-container {
+    height: auto;
+    object-fit: contain;
   }
 }
 

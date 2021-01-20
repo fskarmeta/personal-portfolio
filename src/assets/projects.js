@@ -132,7 +132,7 @@ const PROJECTS = [
     description:
       "A classic todo list with backend, so your todo's won't be forgotten :D",
     image:
-      "https://res.cloudinary.com/bafian/image/upload/c_scale,h_250//Portafolio%20Gifs/todolist_punjai.gif",
+      "https://res.cloudinary.com/bafian/image/upload/c_scale,h_250/Portafolio%20Gifs/todolist_punjai.gif",
     demo: "https://fskarmeta-todo-list.netlify.app/",
     github: "https://github.com/fskarmeta/todo-list-react-flask",
     date: "Nov 18, 2020",
@@ -160,7 +160,7 @@ const PROJECTS = [
     description:
       "A contact List using React's Context and Router, showcasing get, put, post, and delete API usage.",
     image:
-      "https://res.cloudinary.com/bafian/image/upload/v1610857580/Portafolio%20Gifs/contact-list-crud_t3qna3.gif",
+      "https://res.cloudinary.com/bafian/image/upload/c_scale,h_250/Portafolio%20Gifs/contact-list-crud_t3qna3.gif",
     demo: null,
     github:
       "https://github.com/fskarmeta/contact-list-react-context-routes-api",

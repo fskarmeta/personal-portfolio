@@ -204,3 +204,10 @@
     font-size: 12px;
   }
 }
+
+@media (max-width: 320px) {
+  .filter-link {
+    /* margin-top: 1rem; */
+    font-size: 0.8rem;
+  }
+}

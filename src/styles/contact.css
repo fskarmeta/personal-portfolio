@@ -185,13 +185,16 @@ a {
   h2 {
     font-size: 1.5rem;
   }
+  p {
+    font-size: 0.7rem;
+  }
 }
 
-@media (max-height: 322px) {
+@media (max-width: 322px) {
   .cave {
     height: 5rem;
-    left: 80%;
-    top: 55%;
+    left: 65%;
+    top: 68%;
     width: 5rem;
   }
 
@@ -201,6 +204,9 @@ a {
 
   h2 {
     font-size: 1rem;
+  }
+  .social-icon {
+    font-size: 1.5rem !important;
   }
 }
 
