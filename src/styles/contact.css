@@ -170,7 +170,7 @@ a {
   }
 }
 
-@media (max-height: 500px) {
+@media (max-height: 541px) {
   .cave {
     height: 5rem;
     left: 80%;

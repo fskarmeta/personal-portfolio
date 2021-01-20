@@ -4,7 +4,7 @@ import "../styles/about.css";
 const AboutMe = () => {
   return (
     <Container fluid className="about-container">
-      <Row className="mt-5">
+      <Row className="mt-5 about">
         <Col lg={6}>
           <p className="about-text">
             Throughout my childhood and adolescence, I have moved between the

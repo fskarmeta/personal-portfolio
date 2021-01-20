@@ -62,9 +62,10 @@
   .navbar {
     font-size: 0.9rem;
     justify-content: center;
-    /* background-color: red !important; */
     /* position: fixed; */
-    z-index: 1;
+    height: 4rem;
+    z-index: 2;
+    background-color: #211a23 !important;
   }
 }
 

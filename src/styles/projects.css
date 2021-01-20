@@ -5,9 +5,6 @@
 }
 
 @media (max-height: 500px) {
-  .projects-list {
-    height: 60vh;
-  }
   .project-title {
     font-family: "Karla", sans-serif;
     font-size: 20px;
@@ -39,6 +36,7 @@
   font-family: "Karla", sans-serif;
   font-size: 1rem;
   color: rgb(201, 201, 201);
+  margin-top: 2rem !important;
 }
 
 /* .filter-link {
@@ -199,6 +197,65 @@
 
   .projects-list {
     height: 75vh;
+  }
+
+  .stack {
+    font-size: 12px;
+  }
+  .filter {
+    justify-content: start !important;
+  }
+}
+
+@media (max-height: 550px) {
+  .project-title {
+    font-family: "Karla", sans-serif;
+    font-size: 20px;
+  }
+
+  .demo-text {
+    font-size: 15px;
+  }
+
+  .project-date {
+    font-size: 10px;
+  }
+
+  .filter-link {
+    /* margin-top: 1rem; */
+    font-size: 1rem;
+  }
+
+  .projects-list {
+    height: 60vh;
+  }
+
+  .stack {
+    font-size: 12px;
+  }
+}
+
+@media (max-height: 330px) {
+  .project-title {
+    font-family: "Karla", sans-serif;
+    font-size: 20px;
+  }
+
+  .demo-text {
+    font-size: 15px;
+  }
+
+  .project-date {
+    font-size: 10px;
+  }
+
+  .filter-link {
+    /* margin-top: 1rem; */
+    font-size: 1rem;
+  }
+
+  .projects-list {
+    height: 55vh;
   }
 
   .stack {
