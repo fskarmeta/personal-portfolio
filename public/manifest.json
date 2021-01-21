@@ -2,6 +2,7 @@
   "short_name": "Fabian Skarmeta Portfolio",
   "name": "Fabian Skarmeta Full-Stack Portfolio",
   "description": "Fabian Skarmeta's Projects, About and Contact",
+  "lang": "en",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,6 +22,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#211a23",
+  "background_color": "#211a23"
 }
