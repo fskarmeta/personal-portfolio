@@ -1,5 +1,31 @@
 const PROJECTS = [
   {
+    title: "Vanilla JS Battleship",
+    description: `Vanilla JS Battleship game made with JavaScript`,
+    image:
+      "https://res.cloudinary.com/bafian/image/upload/c_scale,w_500/v1611531005/Portafolio%20Gifs/battleship_oev79c.gif",
+    demo: "https://fskarmeta-battleship.netlify.app/",
+    github: "https://github.com/fskarmeta/js-vanilla-battleship-game",
+    date: "Jan 24, 2021",
+    stack: "JavaScript, CSS",
+    snipet: false,
+    favorite: true,
+    backend: false,
+  },
+  {
+    title: "This Portfolio",
+    description: `This portfolio is responsive and was made with React and Bootstrap.`,
+    image:
+      "https://res.cloudinary.com/bafian/image/upload/c_scale,w_500/v1611530424/Portafolio%20Gifs/Screenshot_qvxzzp.png",
+    demo: "https://www.bafian.com/",
+    github: "https://github.com/fskarmeta/personal-portfolio",
+    date: "Jan 18, 2021",
+    stack: "React, Bootstrap",
+    snipet: false,
+    favorite: true,
+    backend: false,
+  },
+  {
     title: "Tibia Game Bot",
     description: `With the only purpose of learning and develop my coding skills, I created a bot for the game Tibia. It uses a library called robot.js that replicates many of the functionalities that python's pygui has to offer but in node.js. In short, it has the main script that automates your mouse and keyboard to eat and craft runes after a random amount of time. A smaller script is there to fish. But the best thing is that it listens constantly to the chat and if an admin talks to you the script gets stopped, an SMS message is sent to your phone with a warning and your player will say "hello" :P.  `,
     image:
@@ -33,7 +59,7 @@ const PROJECTS = [
       "https://res.cloudinary.com/bafian/image/upload/c_scale,h_250/Portafolio%20Gifs/calculator_ylu336.png",
     demo: "https://codepen.io/fskarmeta/full/abmGjVG",
     github: "https://github.com/fskarmeta/calculator-vanillaJS-nohtml-css-grid",
-    date: "Jan 5, 2021",
+    date: "Jan 4, 2021",
     stack: "CSS3,  JavaScript",
     snipet: false,
     favorite: false,
