@@ -38,7 +38,6 @@ function App() {
                 <Route exact path="/certificates">
                   <Certifications />
                 </Route>
-                <Redirect from="/:any" to="/" />
               </Container>
             </Switch>
           </Analytics>
