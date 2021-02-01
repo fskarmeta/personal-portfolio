@@ -1,9 +1,5 @@
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/"
   status = 200
 
-[[redirects]]
-  from = "/prod/*"
-  to = "/index.html"
-  status = 200
