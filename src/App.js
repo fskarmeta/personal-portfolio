@@ -7,6 +7,7 @@ import Projects from "./views/projects";
 import Contact from "./views/contact";
 import AboutMe from "./views/about";
 import Certifications from "./views/certifications";
+import NotFound from "./views/notfound";
 import Analytics from "react-router-ga";
 import "./styles/app.css";
 
@@ -25,20 +26,13 @@ function App() {
           <Analytics id="UA-182868256-1">
             <Navbar />
             <Switch>
-              <Container fluid>
-                <Route exact path="/">
-                  <Contact inside={inside} />
-                </Route>
-                <Route exact path="/projects">
-                  <Projects />
-                </Route>
-                <Route exact path="/about">
-                  <AboutMe />
-                </Route>
-                <Route exact path="/certificates">
-                  <Certifications />
-                </Route>
-              </Container>
+              <Route exact path="/">
+                <Contact inside={inside} />
+              </Route>
+              <Route exact path="/projects" component={Projects} />
+              <Route exact path="/about" component={AboutMe} />
+              <Route exact path="/certificates" component={Certifications} />
+              <Route component={NotFound} />
             </Switch>
           </Analytics>
         </BrowserRouter>

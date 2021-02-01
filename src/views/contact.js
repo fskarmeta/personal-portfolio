@@ -6,7 +6,7 @@ import { ReactComponent as Icon } from "../assets/owl.svg";
 const Contact = ({ inside }) => {
   const mouseInside = {
     animation: "rotation 160s infinite linear",
-    "animation-play-state": "running",
+    animationPlayState: "running",
     color: "white",
     fill: "white",
   };
