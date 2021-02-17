@@ -111,7 +111,7 @@ a {
     height: 12rem;
     left: 60%;
     top: 65%;
-    width: 12rem;
+    width: 9rem;
   }
 }
 
@@ -127,6 +127,13 @@ a {
 }
 
 @media (max-width: 400px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
   .cave {
     height: 2rem;
     left: 80%;
@@ -144,15 +151,16 @@ a {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
 @media (max-height: 541px) {
+
   .cave {
     height: 5rem;
     left: 80%;
@@ -161,11 +169,11 @@ a {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   p {
     font-size: 0.7rem;
@@ -181,14 +189,14 @@ a {
   }
 
   h1 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   h2 {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .social-icon {
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
   }
 }
 
@@ -197,7 +205,7 @@ a {
     height: 5rem;
     left: 80%;
     top: 42%;
-    width: 5rem;
+    width: 4.5rem;
   }
 
   h1 {
@@ -239,7 +247,7 @@ a {
     height: 2rem;
     left: 45%;
     top: 70%;
-    width: 7rem;
+    width: 6rem;
   }
 }
 
@@ -255,9 +263,9 @@ a {
 @media (max-width: 500px) and (max-height: 800px) {
   .cave {
     height: 2rem;
-    left: 40%;
-    top: 80%;
-    width: 7rem;
+    left: 60%;
+    top: 83%;
+    width: 5rem;
   }
 }
 
@@ -265,7 +273,7 @@ a {
   .cave {
     height: 2rem;
     left: 70%;
-    top: 80%;
+    top: 70%;
     width: 4rem;
   }
 }

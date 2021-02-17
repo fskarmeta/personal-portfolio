@@ -26,8 +26,8 @@ const AboutMe = () => {
             completed various online programming certificates and I recently
             finished a programming Bootcamp. Lately, I enjoy solving algorithms
             as a pastime and I find myself unable to sleep until an item has
-            been properly adjusted in my application. I would love to work in a
-            company where I can contribute full-time to the creation and
+            been properly adjusted in my application. I love to work in places
+            where I can contribute full-time to the creation and
             implementation of systems, as well as continuing to learn and work
             with new technologies.
           </p>
