@@ -24,12 +24,11 @@ const AboutMe = () => {
             plays. In August 2020 due to the the pandemic I discovered and fell
             in love with programming, especially JavaScript and React. I have
             completed various online programming certificates and I recently
-            finished a programming Bootcamp. Lately, I enjoy solving algorithms
-            as a pastime and I find myself unable to sleep until an item has
-            been properly adjusted in my application. I love to work in places
-            where I can contribute full-time to the creation and
-            implementation of systems, as well as continuing to learn and work
-            with new technologies.
+            finished a programming Bootcamp. Currently, I'm working as a FrontEnd
+            Developer with the Vue, Vuex, Firebase, and Quasar stack but I'm always
+            opened to new opportunities in places where I can learn and work with
+            new technologies. I enjoy what I do and I'm always going to try my best
+            to make you happy with my work.
           </p>
         </Col>
         <Col lg={6} className="d-flex justify-content-center mt-5">

@@ -1,5 +1,5 @@
 import { Container, Col, Row } from "react-bootstrap";
-import pdf from "../assets/Fabian_Skarmeta_Full-Stack.pdf";
+import pdf from "../assets/Fabian_Skarmeta_English_Resume_March_2021.pdf";
 import "../styles/contact.css";
 import { ReactComponent as Icon } from "../assets/owl.svg";
 
