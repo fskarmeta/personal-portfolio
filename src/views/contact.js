@@ -48,12 +48,12 @@ const Contact = ({ inside }) => {
                 <i className="fab fa-linkedin social-icon fa-2x"></i>
               </a>
               <a
-                href="https://twitter.com/fskarmeta"
+                href="https://gitlab.com/fskarmeta"
                 target="_blank"
                 className="social-link m-1"
                 rel="noreferrer"
               >
-                <i className="fab fa-twitter-square social-icon fa-2x"></i>
+                <i className="fab fa-gitlab social-icon fa-2x"></i>
               </a>
               <a
                 href="https://www.freecodecamp.org/bafian"
