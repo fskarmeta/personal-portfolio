@@ -17,6 +17,7 @@ const Projects = () => {
   const [filter, setFilter] = useState("github");
   const [colsize, setColsize] = useState(4);
   const [width, setWidth] = useState(window.innerWidth);
+  const [placeHolder, setPlaceHolder] = useState([])
   const breakpoint = 992;
 
   useEffect(() => {
@@ -24,6 +25,20 @@ const Projects = () => {
     window.addEventListener("resize", handleWindowResize);
     return () => window.removeEventListener("resize", handleWindowResize);
   }, [width]);
+
+  useEffect(() => {
+    if (PROJECTS.length%3 !== 0) {
+    let len = PROJECTS.length
+    const placeHolderArr = []
+    let i = 0
+    while (len%3 !== 0) {
+      placeHolderArr.push(i)
+      i++
+      len++
+    }
+    setPlaceHolder(placeHolderArr)
+  }
+  }, [])
 
   function displayProject(project) {
     setProject({
@@ -97,6 +112,8 @@ const Projects = () => {
                 />
               )
             )}
+            {placeHolder.map((e) => 
+            <Col key={e} xl={colsize} lg={12} md={12} sm={12} xs={12}></Col> )}
           </Row>
         </Col>
         <Col className={width < breakpoint ? "d-none" : "project-detail"}>
