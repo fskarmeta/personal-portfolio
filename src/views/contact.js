@@ -1,5 +1,5 @@
 import { Container, Col, Row } from "react-bootstrap";
-import pdf from "../assets/Fabian_Skarmeta_English_Resume_March_2021.pdf";
+import pdf from "../assets/Fabian_Skarmeta_English_Resume_April_2021.pdf";
 import "../styles/contact.css";
 import { ReactComponent as Icon } from "../assets/owl.svg";
 
@@ -81,12 +81,14 @@ const Contact = ({ inside }) => {
                 <i className="far fa-file-pdf social-icon fa-2x"></i>
               </a>
             </div>
+            <a href="https://www.youtube.com/watch?v=21qfRm637xc" target="_blank" rel="noreferrer">
             <span className="cave">
               <Icon
                 alt="Decoration"
                 style={inside ? mouseInside : mouseOutside}
               />
             </span>
+            </a>
           </Col>
         </Row>
       </Container>
