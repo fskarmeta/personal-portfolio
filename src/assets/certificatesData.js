@@ -1,5 +1,17 @@
 const CERTIFICATES = [
   {
+    organization: "Academind",
+    name: "JavaScript - The Complete Guide 2021",
+    date: "April 2021",
+    link: "https://www.udemy.com/certificate/UC-c41ae514-9565-42df-a6f1-eec0b65d4c2d/",
+  },
+  {
+    organization: "Udemy",
+    name: "Quasar Framework: Cross-Platform Vue JS Vuex & Firebase Apps",
+    date: "Feb 2021",
+    link: "https://www.udemy.com/certificate/UC-0af7e60e-ac5f-46d8-aa10-7de0dc7befbd/",
+  },
+  {
     organization: "freeCodeCamp",
     name: "Front End Libraries",
     date: "Jan 2021",

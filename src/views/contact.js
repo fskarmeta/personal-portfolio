@@ -30,7 +30,7 @@ const Contact = ({ inside }) => {
               </h3>
               <p>Santiago, Chile</p>
             </div>
-            <div className="icons mt-5">
+            <div className="icons">
               <a
                 href="https://github.com/fskarmeta"
                 target="_blank"

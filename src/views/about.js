@@ -8,8 +8,7 @@ const AboutMe = () => {
         <Col lg={6}>
           <p className="about-text">
             Throughout my childhood and adolescence, I have moved between the
-            United States, Germany, and Chile. I have always found myself
-            immersed in a multicultural experience. My overall curiosity for
+            United States, Germany, and Chile. My overall curiosity for
             general knowledge about economics, politics, and philosophy led me
             to study sociology. Furthermore, playing Jazz improvisation on the
             piano has been an integral part of me for more than 15 years. It’s
@@ -22,7 +21,7 @@ const AboutMe = () => {
             where I led teams and supervised dozens of shows. Also during this
             time, I had the opportunity to compose music for three theater
             plays. In August 2020 due to the the pandemic I discovered and fell
-            in love with programming, especially JavaScript and React. I have
+            in love with programming. I have
             completed various online programming certificates and I recently
             finished a programming Bootcamp. Currently, I'm working as a FrontEnd
             Developer with the Vue, Vuex, Firebase, and Quasar stack but I'm always

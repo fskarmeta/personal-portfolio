@@ -1,7 +1,7 @@
 const PROJECTS = [
   {
     title: "Vanilla JS Battleship",
-    description: `Vanilla JS Battleship game made with JavaScript`,
+    description: `Vanilla JS Battleship game`,
     image:
       "https://res.cloudinary.com/bafian/image/upload/c_scale,w_500/v1611531005/Portafolio%20Gifs/battleship_oev79c.gif",
     demo: "https://fskarmeta-battleship.netlify.app/",
@@ -53,7 +53,7 @@ const PROJECTS = [
     backend: false,
   },
   {
-    title: "Vanilla JavaScript Calculator",
+    title: "JavaScript Calculator",
     description: `I decided to do this calculator for the FCC Front End Certificate with plain Vanilla JavaScript and a functional approach. I also rendered all the HTML from the script, it was a lot of fun and it felt like a good consolidation of my JavaScript skills.`,
     image:
       "https://res.cloudinary.com/bafian/image/upload/c_scale,h_250/Portafolio%20Gifs/calculator_ylu336.png",
@@ -106,13 +106,13 @@ const PROJECTS = [
     demo: "https://chilegigs.netlify.app/",
     github: "https://github.com/fskarmeta/chilegigs-project",
     date: "Dec 16, 2020",
-    stack: "Python, Flask, React, Bootstrap, Postgres",
+    stack: "Python, Flask, React, Postgres",
     snipet: false,
     favorite: true,
     backend: true,
   },
   {
-    title: "SMS Queue Managment",
+    title: "SMS Queue Mngmt",
     description:
       "A serverside queue SMS management system using Twilio and showcasing the use of FIFO and LIFO methods.",
     image:
@@ -197,7 +197,7 @@ const PROJECTS = [
     backend: false,
   },
   {
-    title: "Github Calendar Clone",
+    title: "Github Calendar",
     description:
       "A calendar clone of the GitHub calendar, it also has a post wall added just to test its possible functionality.",
     image:
@@ -212,7 +212,7 @@ const PROJECTS = [
     backend: false,
   },
   {
-    title: "Music Player with Fetch",
+    title: "Music Player + Fetch",
     description:
       "A music player fetching music from an API and done with custom css",
     image:
