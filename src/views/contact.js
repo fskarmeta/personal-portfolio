@@ -25,10 +25,10 @@ const Contact = ({ inside }) => {
             <div>
               <h1>Fabián Skármeta</h1>
               <h2 className="font-italic">Full-Stack Developer</h2>
-              <h3 className="font-italic small w-50">
-                JavaScript, React, NodeJS, Bootstrap, HTML5, CSS3, Python, Flask, MySQL, Django, Git, Agile, Vue, Firebase, Quasar
+              <h3 className="font-italic small contact">
+               JavaScript, Python, React/Next.js, Vue/Nuxt.js, Node.js, Flask, Git, MongoDB, Firebase, SQL, GraphQL, Strapi, Scrum
               </h3>
-              <p>Santiago, Chile</p>
+              <p>Santiago, Berlin</p>
             </div>
             <div className="icons">
               <a

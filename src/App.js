@@ -24,7 +24,6 @@ function App() {
       >
         <BrowserRouter basename={basename}>
           <Analytics id="UA-182868256-1">
-            <Navbar />
             <Switch>
               <Route exact path="/">
                 <Contact inside={inside} />
